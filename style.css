@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.281);
+}
+
+.cityNames {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  margin: 10px;
+  font-size: 30px;
+  border: 1px solid;
+  border-radius: 9px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 27px;
+  margin: 10px;
+  padding: 10px;
+  background-color: hsl(117, 77%, 45%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(117, 77%, 55%);
+  transition: 0.5s;
+}
+button:active {
+  background-color: hsl(117, 77%, 70%);
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(hwb(197 38% 1%), rgba(255, 166, 0, 0.527));
+  box-shadow: 5px 5px 10px black;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsla(0, 3%, 12%, 0.868);
+  letter-spacing: 2px;
+  padding: 5px;
+  margin: 0px;
+}
+
+.name {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsla(0, 3%, 12%, 0.868);
+  letter-spacing: 2px;
+  padding: 5px;
+  margin: 0px;
+}
+
+p {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsla(0, 3%, 12%, 0.868);
+  letter-spacing: 4px;
+  padding: 5px;
+  margin: 10px;
+}
+.tempDisplay {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+
+.weatherEmoji {
+  font-size: 7.5rem;
+}
+
+.humidityDisplay {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.weatherInfo {
+  font-family: Georgia;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.errorDisplay {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
